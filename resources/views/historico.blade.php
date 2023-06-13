@@ -6,12 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logoicon.jpg">
     <link rel="stylesheet" href="css/style.css">
     <title>SISCAU</title>
 </head>
 <body>
     <header class="cabecalho">
-        <img src="img/logo_transparente.png" alt="logo" class="logo_header">
+      <img src="img/logoicon.jpg" alt="logo" class="logo_header">
+      <h1 class="tituloHeader"><br>NOVACAP</h1>
     </header>
 
     <main>

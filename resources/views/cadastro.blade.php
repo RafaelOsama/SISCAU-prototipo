@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logoicon.jpg">
     <link rel="stylesheet" href="css/style.css">
     <title>SISCAU</title>
 </head>
 <body>
     <header class="cabecalho">
-            <img src="img/logo_transparente.png" alt="logo" class="logo_header">
-        <div class="container_botao">
-        </div>
+        <img src="img/logoicon.jpg" alt="logo" class="logo_header">
+        <h1 class="tituloHeader"><br>NOVACAP</h1>
+        <div class="container_botao"></div>
     </header>
 
 <section class="container_cadastro">
@@ -57,15 +58,15 @@
             </div>
             <div class="conta">
                 <label>Conta</label>
-                <input class="CampoInput"></input> 
+                <input type="number" class="CampoInput"></input> 
             </div>
             <div class="contrato">
                 <label>Contrato</label>
-                <input class="CampoInput"></input> 
+                <input type="number" class="CampoInput"></input> 
             </div>
             <div class="aditivo">
                 <label>Aditivo</label>
-                <input class="CampoInput"></input> 
+                <input type="text" class="CampoInput"></input> 
             </div>
             <!---->
         </div>
@@ -75,11 +76,11 @@
     <div class="container_quatro">
         <div>
             <label>Data do GR</label>
-            <input class="CampoInput"></input> 
+            <input type="number" class="CampoInput"></input> 
         </div>
         <div>    
             <label>Data de validade</label>
-            <input class="CampoInput"></input> 
+            <input type="number" class="CampoInput"></input> 
         </div>
         <div>
             <label>Tipo de documento</label>
@@ -93,7 +94,7 @@
             </div>
         <div>    
             <label>Número</label>
-            <input class="CampoInput"></input>
+            <input type="number" class="CampoInput"></input>
         </div>
     </div>
     <br><br>
@@ -111,7 +112,7 @@
     </div>
     <div class="valor">    
             <label>Valor</label>
-            <input class="CampoInput"></input>
+            <input type="number" class="CampoInput"></input>
         </div>
 </div>
 <br><br>
@@ -119,11 +120,11 @@
 <div class="container_quatro">
         <div class="documento">
             <label>Documento</label>
-            <input class="CampoInput"></input> 
+            <input type="text" class="CampoInput"></input> 
         </div>
         <div class="numero_nl">    
             <label>Numero da NL</label>
-            <input class="CampoInput"></input> 
+            <input type="number" class="CampoInput"></input> 
         </div>
 </div>
 <br><br>
@@ -131,7 +132,7 @@
 <div class="container_quatro">
         <div class="historico">
             <label>Histórico</label>
-            <input class="CampoInput"></input> 
+            <input type="text" class="CampoInput"></input> 
         </div>
 </div>
 <br><br><br>

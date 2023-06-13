@@ -12,16 +12,17 @@
 </head>
 <body>
     <header class="cabecalho">
-            <img src="img/logo_transparente.png" alt="logo" class="logo_header">
+        <img src="img/logoicon.jpg" alt="logo" class="logo_header">
+        <h1 class="tituloHeader"><br>NOVACAP</h1>
         <div class="container_botao">
-        </div>
+        </div> 
     </header>
 
 <section class="container_pesquisa">
 
     <div class="pesquisa_titulo">
         <h1>Guias de recolhimento</h1><br><br>
-        <a href="#" id="NovaGuia">+ Nova Guia de Recolhimento</a>
+        <a href="{{ route('cadastro') }}" id="NovaGuia">+ Nova Guia de Recolhimento</a>
     </div>
 
     <br><br><br>
@@ -30,24 +31,24 @@
         <div class="container_quatro">
             <div>
                 <label>Numero</label>
-                <input class="CampoInput"></input> 
+                <input type="number" class="CampoInput"></input> 
             </div>
             <div>
                 <label>Contrato</label>
-                <input class="CampoInput"></input> 
+                <input type="number" class="CampoInput"></input> 
             </div>
             <div>
                 <label>Documento</label>   
-                <input class="CampoInput"></input> 
+                <input type="number" class="CampoInput"></input> 
             </div>
         <div>
             <label>Tipo de recolhimento</label>
             <select class="CampoSelect" required>
-                <option value="documentos">documentos</option>
-                <option value="documentos">documentos</option>
-                <option value="documentos">documentos</option>
-                <option value="documentos">documentos</option>
-                <option value="documentos">documentos</option>
+                <option value="documentos">Documentos</option>
+                <option value="documentos">teste</option>
+                <option value="documentos">teste</option>
+                <option value="documentos">teste</option>
+                <option value="documentos">teste</option>
             </select>
             </div>
         </div>
@@ -58,7 +59,7 @@
         <div>
             <label>Agência</label>
                 <select class="CampoSelect">
-                    <option value=""></option>
+                    <option value="">0000000</option>
                     <option value=""></option>
                     <option value=""></option>
                     <option value=""></option>
@@ -67,11 +68,11 @@
             </div>
             <div>
                 <label>Processos de baixa</label>
-                <input class="CampoInput"></input> 
+                <input type="text" class="CampoInput"></input> 
             </div>
             <div>
                 <label>CPF/CNPJ</label>
-                <input class="CampoInput"></input> 
+                <input type="number" class="CampoInput"></input> 
             </div>
             <!---->
         </div>
@@ -81,16 +82,16 @@
     <div class="container_quatro">
         <div class="dividir">
             <label>Data do GR</label>
-            <input class="campodual"></input> 
+            <input type="date" class="campodual"></input> 
             <span>a</span>
-            <input class="campodual"></input> 
+            <input type="date" class="campodual"></input> 
         </div>
     
         <div>
         <label>Data de validade</label>
-            <input class="campodual"></input>
+            <input type="date" class="campodual"></input>
              <span>a</span>
-            <input class="campodual"></input> 
+            <input type="date" class="campodual"></input> 
         </div>
     </div>
 
@@ -99,9 +100,9 @@
     <div class="container_quatro">
         <div>
             <label>Data de validade</label>
-            <input class="campodual"></input>
+            <input type="date" class="campodual"></input>
             <span>a</span>
-            <input class="campodual"></input> 
+            <input type="date" class="campodual"></input> 
         </div>
 
         <div class="espacamento_select">
@@ -120,15 +121,15 @@
 
     <div class="container_quatro">
         <div>
-            <label>Numero</label>
-            <input class="CampoInput"></input> 
+            <label>Numero da NL</label>
+            <input type="number" class="CampoInput"></input> 
         </div>
 
         <div class="espaco_div_5">
 
         <label>Tipo do Documento</label>
             <select class="CampoSelect">
-                <option value="">Tipo de Consulta</option>
+                <option value="">Tipo de Documento</option>
                 <option value="">teste</option>
                 <option value="">teste</option>
                 <option value="">teste</option>
@@ -141,7 +142,7 @@
     <br><br><br>
 
     <div>
-        <button class="btn" onclick=()>Pesquisar</button>
+        <button type="submit" class="btn">Pesquisar</button>   
     </div>
 </section>
 

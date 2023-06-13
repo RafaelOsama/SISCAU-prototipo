@@ -1,8 +1,10 @@
 /* Bill */
+
+/*testbill*/
+
 .container_cadastro {
     margin: 0 auto;
     padding: 2em 0 2em 20em;
-
 }
 
 .cadastro_titulo {
@@ -10,8 +12,8 @@
    font-size: 18px;
 }
 
-.tipo_recolhimento {
-    width: 20em;
+.CampoSelect {
+    border-radius: 5px;
 }
 
 .instituicao_financeira {
